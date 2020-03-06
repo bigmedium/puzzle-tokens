@@ -15,6 +15,7 @@ var onRun = function (context) {
     let showDebug = Settings.settingForKey(SettingKeys.PLUGIN_SHOW_DEBUG) == 1
     let showDoubleStyle = Settings.settingForKey(SettingKeys.PLUGIN_SHOW_DOUBLESTYLES) == 1
     let genSymbTokens = Settings.settingForKey(SettingKeys.PLUGIN_GENERATE_SYMBOLTOKENS) == 1
+    let advPathToNodeModules = Settings.settingForKey(SettingKeys.PLUGIN_ADV_PATH_TO_NODE_MODULES) + ""
 
     // Build dialog
     const dialog = new UIDialog("Configure", NSMakeRect(0, 0, 400, 120), "Save", "Edit Puzzle Tokens common configuration settings.")

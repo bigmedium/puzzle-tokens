@@ -22,4 +22,5 @@ var SettingKeys = {
     PLUGIN_SHOW_CHECK: "pluginPreview",
     PLUGIN_SHOW_DEBUG: "pluginDebug",
     PLUGIN_SHOW_DOUBLESTYLES: "pluginDoubleStyles",
+    PLUGIN_ADV_PATH_TO_NODE_MODULES: "PLUGIN_ADV_PATH_TO_NODE_MODULES",
 };
